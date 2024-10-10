@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "diabetesPredictionWebApp.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "diabetesPredictionWebApp.py"
+      }
+    ]
+  }
+  
